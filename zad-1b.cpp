@@ -36,7 +36,7 @@ int main() {
     int N; // liczba rozwiazan
     printf("Program rozwiazuje uklad dwoch rownan liniowych metoda wspolczynnikow.\n\n");
     printf("Pierwsze rownanie: \n");
-    printf("%d", &A1);
+    //printf("%d", &A1);
     CzytajRownanie(&A1, &B1, &C1);
     printf("Drugie rownanie: \n");
     CzytajRownanie(&A2, &B2, &C2);
